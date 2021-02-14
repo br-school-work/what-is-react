@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Build Relaese
-        run: npm run build --if-present
+        run: npm run build
 
       - name: Archive Artifacts
         uses: actions/upload-artifact@v2
