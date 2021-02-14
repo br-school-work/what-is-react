@@ -27,8 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install serve
-        run: npm install -g serve
+        run: sudo npm install -g serve
 
       # Runs a set of commands using the runners shell
       - name: Build release
-        run: serve -s build
+        run: sudo serve -s build
